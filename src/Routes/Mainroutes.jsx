@@ -1,22 +1,16 @@
-import { Routes} from "react-router"
-import { Route } from "react-router"
 import Home from "../Pages/Home";
-import Register from "../Pages/Register";
-import Dashbord from "../Pages/Dashbord";
 import Report from "../Pages/Report";
+import Dashbord from "../Pages/Dashbord";
+
 const Mainroutes = () => {
   return (
-    <div className="w-screen h-[92%] w-[100%]  m-5 ">
-      <Routes >
-  <Route path="/" element={<Home/>} />
-  <Route path="/Register" element={<Register/>} />
-  <Route path="/Dashbord" element={<Dashbord/>} />
-  <Route path="Report" element={<Report/>} />
-
-
-</Routes>
+    <div className="w-screen h-[92%] m-5">
+      {/* Render all three components in the same page */}
+      <Home />
+      <Report />
+      <Dashbord />
     </div>
-  )
-}
+  );
+};
 
-export default Mainroutes
+export default Mainroutes;

@@ -5,7 +5,7 @@ import Footer from "./Components/Footer"
 
 const App = () => {
   return (
-    <div className='bg-blue-50 text-gray-800 h-screen w-screen overflow-x-hidden'>
+    <div className='bg-blue-50 text-gray-800  w-screen overflow-x-hidden flex-grow'>
       <Navbar/>
       <Mainroutes />
       <Footer/>
