@@ -2,7 +2,7 @@
   "name": "cook-with-me",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/MuddassirAkhtar/civic-tracker-App",
+"homepage": "https://MuddassirAkhtar.github.io/civic-tracker-App",
   "type": "module",
   "scripts": {
     "dev": "vite",
