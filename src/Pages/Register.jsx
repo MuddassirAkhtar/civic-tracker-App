@@ -13,7 +13,7 @@ const Register = () => {
   }
   return (
     <>
-    <div className='text-white h-[90%] w-[96.5%] flex items-center justify-center gap-2 '>
+    <div className='text-white h-screen w-screen flex items-center justify-center  '>
       <div className="container h-[95%] w-[63%] bg-white mt-10 flex items-center justify-center shadow-xl">
         <div className="cnt1 h-[100%] w-[50%] text-black flex flex-col items-center justify-center text-gray-600">
           <h1 className='text-center  text-4xl font-bold text-black'>Welcome Back</h1>

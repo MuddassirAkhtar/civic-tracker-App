@@ -5,7 +5,7 @@ const Dashbord = () => {
   const [dashbord] = useContext(dashbordcontext);
 
   return (
-    <div className='w-[96.5%] h-full overflow-hidden'>
+    <div className='w-[96.5%] h-full overflow-hidden h-screen w-screen '>
       {dashbord.length > 0 ? (
         <table className="w-full table-fixed m-5">
           <thead>

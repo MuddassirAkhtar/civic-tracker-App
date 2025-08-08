@@ -1,4 +1,3 @@
-import React from 'react'
 import Mainroutes from './Routes/Mainroutes';
 import Navbar from './Components/Navbar' 
 import Footer from "./Components/Footer"
